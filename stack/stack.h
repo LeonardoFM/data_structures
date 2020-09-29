@@ -7,7 +7,7 @@ class SimpleStack{
     int top;
 
 public:
-    SimpleStack();
+    SimpleStack(int size);
     ~SimpleStack();
     void push(int e);
     void pop();

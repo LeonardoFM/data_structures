@@ -2,9 +2,8 @@
 #include "stack.h"
 using namespace std;
 
-
-SimpleStack::SimpleStack(){
-    vect = new int[100];
+SimpleStack::SimpleStack(int size){
+    vect = new int[size];
     max_size = 99;
     top = -1;
 }
